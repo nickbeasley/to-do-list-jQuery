@@ -2,7 +2,7 @@
 
 body {
   font: normal normal 13px/16px "Open Sans", sans-serif;
-  background: #dfdfdf;
+  background: #aaa4a4;
 }
 
 .container {
@@ -47,10 +47,9 @@ ol li {
   color: #000;
 }
 
-ol li:nth-child(even) {
+ol li:nth-child(odd) {
   background: #dfdfdf;
 }
-
 .strike {
   text-decoration: line-through;
 }
