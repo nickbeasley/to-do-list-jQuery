@@ -12,6 +12,7 @@ function newItem() {
   } else {
     $("#list").append(li);
   }
+
   function crossOut() {
     li.toggleClass("strike");
   }
